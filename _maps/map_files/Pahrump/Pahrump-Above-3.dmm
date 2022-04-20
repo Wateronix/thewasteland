@@ -755,12 +755,6 @@
 "dI" = (
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"dM" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "dO" = (
 /obj/structure/decoration/rag,
 /obj/structure/barricade/wooden/strong,
@@ -897,6 +891,8 @@
 /area/f13/legion)
 "ey" = (
 /obj/structure/closet/wardrobe,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/under/f13/ncr_formal_uniform,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "ez" = (
@@ -1442,12 +1438,6 @@
 	icon_state = "plating"
 	},
 /area/f13/building)
-"hm" = (
-/obj/structure/sign/poster/official/safety_eye_protection{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "hn" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -1710,22 +1700,6 @@
 	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
-"iO" = (
-/obj/structure/rack,
-/obj/item/seeds/poppy/broc,
-/obj/item/seeds/poppy/broc,
-/obj/item/seeds/xander,
-/obj/item/seeds/xander,
-/obj/item/seeds/corn,
-/obj/item/seeds/corn,
-/obj/item/seeds/potato,
-/obj/item/seeds/potato,
-/obj/item/seeds/soya,
-/obj/item/seeds/soya,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/ncr)
 "iP" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -2817,18 +2791,6 @@
 /obj/structure/table/wood,
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/building)
-"nW" = (
-/obj/machinery/biogenerator,
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/sign/poster/official/safety_eye_protection{
-	pixel_y = 32
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/ncr)
 "nY" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -3357,10 +3319,6 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-"qK" = (
-/obj/machinery/hydroponics/soil,
-/turf/open/indestructible/ground/inside/dirt,
-/area/f13/ncr)
 "qO" = (
 /obj/structure/bed,
 /obj/item/bedsheet/purple,
@@ -3492,12 +3450,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
-"rw" = (
-/obj/machinery/seed_extractor,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/ncr)
 "rz" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -6533,13 +6485,6 @@
 "Gy" = (
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/caves)
-"Gz" = (
-/obj/machinery/light,
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/ncr)
 "GA" = (
 /obj/structure/window/fulltile/wood{
 	max_integrity = 140
@@ -7056,13 +7001,6 @@
 	dir = 4
 	},
 /area/f13/building)
-"IX" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "IY" = (
 /obj/structure/filingcabinet/employment{
 	pixel_x = 4;
@@ -7297,18 +7235,6 @@
 /obj/structure/table/wood,
 /obj/item/ship_in_a_bottle,
 /turf/open/floor/carpet/black,
-/area/f13/ncr)
-"JX" = (
-/obj/structure/rack,
-/obj/item/shovel,
-/obj/item/storage/bag/plants,
-/obj/item/storage/bag/plants,
-/obj/item/shovel/spade,
-/obj/item/cultivator,
-/obj/item/hatchet,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
 /area/f13/ncr)
 "Ka" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7575,10 +7501,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
-"Lm" = (
-/obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "Lo" = (
@@ -8127,14 +8049,6 @@
 /obj/structure/bed/old,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"Om" = (
-/obj/structure/rack,
-/obj/item/reagent_containers/glass/bucket/wood,
-/obj/item/reagent_containers/glass/bucket/wood,
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/ncr)
 "On" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/f13/wood,
@@ -9193,15 +9107,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"TJ" = (
-/obj/structure/reagent_dispensers/compostbin,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrustysolid"
-	},
-/area/f13/ncr)
 "TK" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/ncr)
@@ -9920,10 +9825,6 @@
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
 	},
-/area/f13/ncr)
-"Xq" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/wall/f13/store/constructed,
 /area/f13/ncr)
 "Xs" = (
 /turf/open/indestructible/ground/outside/woodalt,
@@ -28408,10 +28309,10 @@ Al
 (71,1,1) = {"
 SF
 ay
-Lm
-Lm
-Gz
-Xq
+Yp
+Yp
+Yp
+Yp
 Jd
 Jd
 Jd
@@ -28665,10 +28566,10 @@ Al
 (72,1,1) = {"
 SF
 Jd
-Lm
-Lm
-Gz
-Jd
+Yp
+Yp
+Yp
+Yp
 Jd
 xS
 mi
@@ -28922,21 +28823,21 @@ Al
 (73,1,1) = {"
 SF
 Jd
-oD
+JS
+JS
+kv
+kv
 Jd
-Jd
-Jd
-Jd
-Hc
+JS
 JS
 rU
-Hc
+JS
 JS
 rU
-KK
+JS
 JS
 Jd
-KK
+JS
 JS
 Jd
 ub
@@ -29181,8 +29082,8 @@ SF
 Jd
 JS
 JS
-IX
-Jd
+Az
+Az
 Jd
 JS
 aX
@@ -29436,10 +29337,10 @@ Al
 (75,1,1) = {"
 SF
 Jd
-JS
-JS
-JS
-gB
+oD
+Jd
+Jd
+Jd
 Jd
 oD
 Jd
@@ -29698,16 +29599,16 @@ JS
 JS
 JS
 ot
-JS
-JS
-ot
-JS
+Hc
 JS
 ot
-JS
+Hc
 JS
 ot
+KK
 JS
+ot
+KK
 vh
 Jd
 ub
@@ -29961,10 +29862,10 @@ JS
 JS
 JS
 JS
+Gp
 JS
 JS
-JS
-JS
+aZ
 vh
 rU
 ub
@@ -30732,10 +30633,10 @@ JS
 pr
 TT
 Jd
-Gp
+JS
 JS
 Jd
-aZ
+JS
 JS
 Jd
 ub
@@ -34062,7 +33963,7 @@ Al
 (93,1,1) = {"
 SF
 Jd
-Jd
+zN
 zN
 Ei
 Tx
@@ -34319,7 +34220,7 @@ Al
 (94,1,1) = {"
 SF
 Jd
-Jd
+zN
 zN
 zN
 yS
@@ -34576,8 +34477,8 @@ Al
 (95,1,1) = {"
 SF
 Jd
-Jd
 fc
+zN
 zN
 Lu
 Jd
@@ -34833,8 +34734,8 @@ Al
 (96,1,1) = {"
 SF
 Jd
-Jd
 QM
+zN
 vo
 ea
 Jd
@@ -35357,12 +35258,12 @@ ub
 ub
 ub
 ub
-Jd
-rw
-JS
-ot
-qK
-Wq
+ub
+ub
+ub
+ub
+ub
+ub
 Jd
 rj
 dz
@@ -35613,13 +35514,13 @@ xf
 xf
 xf
 xf
+xf
+xf
+xf
+xf
+xf
+xf
 ub
-Jd
-nW
-JS
-JS
-qK
-Wq
 Jd
 rj
 dz
@@ -35870,13 +35771,13 @@ xf
 xf
 xf
 xf
+xf
+xf
+xf
+xf
+xf
+xf
 ub
-Jd
-Om
-hm
-JS
-qK
-Wq
 Jd
 zN
 zN
@@ -36127,13 +36028,13 @@ xf
 ho
 xf
 xf
+xf
+xf
+xf
+xf
+xf
+xf
 ub
-Jd
-JX
-JS
-JS
-qK
-Wq
 Jd
 nf
 zN
@@ -36384,13 +36285,13 @@ kC
 kC
 kC
 kC
-Uq
-Jd
-iO
-JS
-JS
-qK
-Wq
+kC
+xf
+xf
+xf
+xf
+xf
+ub
 Jd
 lh
 zN
@@ -36641,13 +36542,13 @@ kC
 kC
 kC
 kC
-Uq
-Jd
-TJ
-JS
-JS
-qK
-Wq
+kC
+xf
+xf
+xf
+xf
+xf
+ub
 Jd
 lh
 zN
@@ -36898,13 +36799,13 @@ kC
 kC
 kC
 kC
-Uq
-Jd
-Jd
-JS
-dM
-dM
-Jd
+kC
+xf
+xf
+xf
+xf
+xf
+ub
 Jd
 Jd
 Jd
@@ -37155,13 +37056,13 @@ kC
 kC
 kC
 kC
-Uq
-Uq
-Jd
-JS
-Az
-Az
-Jd
+kC
+kC
+xf
+xf
+xf
+xf
+ub
 Uq
 Uq
 Uq
@@ -37413,13 +37314,13 @@ kC
 kC
 kC
 kC
-Uq
-Jd
-Jd
-Jd
-Jd
-Jd
-Uq
+kC
+xf
+xf
+xf
+xf
+xf
+kC
 kC
 kC
 kC
@@ -37670,13 +37571,13 @@ kC
 kC
 kC
 kC
-Uq
-Uq
-Uq
-Uq
-Uq
-Uq
-Uq
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 kC
 kC
 kC
